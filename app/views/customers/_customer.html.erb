@@ -1,0 +1,15 @@
+<div id="customer">
+  <h1>All Customers</h1>
+
+  <p>
+    <%= link_to 'New Customer', customers_path %> - Missing Emails
+  </p>
+
+  <h2>Customer Name</h2>
+
+  <%= image_tag customer.image %>
+
+  <p>Phone: <%= customer.phone %> </p>
+  <p>Email: <%= customer.email %> </p>
+  <p>Notes: <%= customer.notes %> </p>
+</div>
