@@ -12,5 +12,5 @@ ActiveAdmin.register Customer do
 #   permitted
 # end
 
-  permit_params :name, :phone, :email, :image, :notes
+  permit_params :name, :phone, :email, :image, :notes, :province_id
 end

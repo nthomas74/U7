@@ -10,6 +10,13 @@
   <div id='details'>
     <p><span>Phone:</span> <%= customer.phone %> </p>
     <p><span>Email:</span> <%= customer.email %> </p>
+    <p><span>Province:</span>
+        <% if customer.province != nil %>
+        <%= customer.province.name %>
+        <% else %>
+        None
+        <% end %>
+    </p>
     <p><span>Notes:</span> <%= customer.notes %> </p>
   </div>
 </div>
