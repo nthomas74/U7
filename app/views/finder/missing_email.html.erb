@@ -1,0 +1,7 @@
+<h1>Customers with Missing Email Addresses</h1>
+
+<p>
+  <%= link_to 'All Customers:Ordered', customers_alphabetized_path %> - <%= link_to 'All Customers: Unordered', root_path %>
+</p>
+
+<%= render  partial: '/customers/customer', collection: @customers %>

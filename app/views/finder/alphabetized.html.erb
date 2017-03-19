@@ -1,0 +1,8 @@
+<h1>All Customers - Alphabetized</h1>
+
+<p>
+  <%= link_to 'All Customers:Unordered', root_path %> - <%= link_to 'All Customers: Unordered', root_path %>
+
+</p>
+
+<%= render  partial: '/customers/customer', collection: @customers %>
